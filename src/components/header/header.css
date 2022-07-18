@@ -81,7 +81,7 @@ header{
 
 /* ================ MEDIA QUERY (MEDIUM DEVICES) ================ */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     header{
         height: 123vh;
     }
