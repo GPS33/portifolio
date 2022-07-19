@@ -56,11 +56,6 @@ footer a {
     height: 20vh;
     width: 20vh;
 }
-/* ================ MEDIA QUERY (MEDIUM DEVICES) ================ */
-
-@media screen and (max-width: 1024px) {
-    
-}
 
 /* ================ MEDIA QUERY (SMALL DEVICES) ================ */
 

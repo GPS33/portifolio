@@ -78,5 +78,10 @@
         padding: 2rem 1rem;
         
     }
+
+    .conhecimento__conteudo{     
+        grid-template-columns: 1fr;  
+        
+    }
     
 }

@@ -1,5 +1,5 @@
 .container.contato__container{
-    width: 50%;
+    width: 58%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
@@ -67,9 +67,11 @@ input, textarea{
 
 @media screen and (max-width: 1024px) {
     .container.contato__container {
+        width: 50%;
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+    
     
 }
 
