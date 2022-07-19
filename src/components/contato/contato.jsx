@@ -3,8 +3,22 @@ import './contato.css'
 import {AiOutlineMail} from 'react-icons/ai'
 import {BsLinkedin} from 'react-icons/bs'
 import {AiOutlineWhatsApp} from 'react-icons/ai'
+import { useRef } from 'react';
+import emailjs from 'emailjs-com'
 
 const Contato = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_40d8eof', 'template_e5hmsif', form.current, 'zWXeDYbdoLWZgHTin')
+  
+    e.target.reset();
+
+    alert("Mensagem enviada!");
+  };
+
   return (
     <section id='contato'>
       <h2>Contato</h2>
@@ -32,7 +46,7 @@ const Contato = () => {
             <a href="https://api.whatsapp.com/send?phone=5551995881983" target="_blank">Envie uma mensagem</a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Nome completo' required/>
           <input type="email" name='email' placeholder='Email' required/>
           <textarea name="message" rows="10" placeholder='Escreva uma mensagem' required></textarea>
