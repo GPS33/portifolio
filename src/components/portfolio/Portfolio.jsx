@@ -29,7 +29,7 @@ const Portfolio = () => {
           <h3>Testes Javascript</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/GPS33/Testes-Javascript" className='btn' target='_blank'>Github</a>
-            <a href="https://gerador-de-senha-beta.vercel.app/" className='btn btn-primary' target='_blank'>Demo</a>
+            <a href="https://teste-javascript.vercel.app/" className='btn btn-primary' target='_blank'>Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
