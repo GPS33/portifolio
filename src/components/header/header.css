@@ -2,13 +2,14 @@ header{
     height: 110vh;
     padding-top: 7rem;
     overflow: hidden;
+    ;
 }
 
 .header__container{
     text-align: center;
     height: 100%;
     position: relative;
-    
+    max-height: 500px
 }
 
 /* ============ CTA ============*/
@@ -81,7 +82,7 @@ header{
 
 /* ================ MEDIA QUERY (MEDIUM DEVICES) ================ */
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     header{
         height: 123vh;
     }
