@@ -33,7 +33,7 @@ const Sobre = () => {
             <article className='sobre__card'>
               <BiCodeAlt className="sobre__icone"/>
               <h5>Desenhista Técnico - Topografia<br></br>Front End</h5>
-              <small>Atuando na empresa Agro Engenharia Ltda. desde agosto de 2022</small>
+              <small>Atuando na empresa Agro Engenharia desde agosto/2022</small>
             </article>
 
             
