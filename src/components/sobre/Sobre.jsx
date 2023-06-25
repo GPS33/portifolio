@@ -30,12 +30,17 @@ const Sobre = () => {
               <h5>Programador <br></br>Front End</h5>
               <small>Conhecimentos em Html/Css, Javascript e ReactJS</small>
             </article>
+            <article className='sobre__card'>
+              <BiCodeAlt className="sobre__icone"/>
+              <h5>Desenhista Técnico - Topografia<br></br>Front End</h5>
+              <small>Atuando na empresa Agro Engenharia Ltda. desde agosto de 2022</small>
+            </article>
 
             
           </div>
 
           <p>
-          Sou um técnico em Informática com conhecimentos em programação. Tenho 19 anos e estou a procura de meu primeiro emprego.
+          Sou um técnico em Informática com conhecimentos em programação. Trabalho como Desenhista Técnico na empresa Agro Engenharia.
           </p>
           <div className='buton'>
             <a href="#contato" className='btn btn-primary'>Fale Comigo</a>

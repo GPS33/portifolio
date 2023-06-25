@@ -58,7 +58,7 @@ const Conhecimentos = () => {
 
               <article className='conhecimentos__detalhes'>
                 <BsFillCheckCircleFill className='conhecimentos__detalhes-icones'/>
-                <h4>Manutenção de<br></br> Computadores</h4>
+                <h4>AutoCAD</h4>
               </article>
 
               <article className='conhecimentos__detalhes'>

@@ -42,8 +42,8 @@ const Contato = () => {
           <article className='contato__opcao'>
             <AiOutlineWhatsApp className='.contato__opcao-icon'/>
             <h4>Whatsapp</h4>
-            <h5>55 51 99588-1983</h5>
-            <a href="https://api.whatsapp.com/send?phone=5551995881983" target="_blank">Envie uma mensagem</a>
+            <h5>55 51 99570-1694</h5>
+            <a href="https://api.whatsapp.com/send?phone=5551995701694" target="_blank">Envie uma mensagem</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
