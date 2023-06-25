@@ -30,11 +30,7 @@ const Sobre = () => {
               <h5>Programador <br></br>Front End</h5>
               <small>Conhecimentos em Html/Css, Javascript e ReactJS</small>
             </article>
-            <article className='sobre__cardcentro'>
-              <BiCodeAlt className="sobre__icone"/>
-              <h5>Desenhista Técnico - Topografia<br></br>Front End</h5>
-              <small>Atuando na empresa Agro Engenharia desde agosto/2022</small>
-            </article>
+            
 
             
           </div>
