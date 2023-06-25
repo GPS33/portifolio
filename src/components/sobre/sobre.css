@@ -47,6 +47,15 @@
 
 }
 
+.sobre__cardcentro{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
 .sobre__card:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
